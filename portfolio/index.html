@@ -1,0 +1,122 @@
+<!-- portfolio/
+├── index.html
+├── styles/
+│   ├── style.css
+│   ├── dark-mode.css
+├── scripts/
+│   ├── script.js
+├── assets/
+│   ├── images/
+│   ├── icons/ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/dark-mode.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Dark Mode Toggle -->
+  <div class="dark-mode-toggle">
+    <input type="checkbox" id="dark-mode-toggle">
+    <label for="dark-mode-toggle"></label>
+  </div>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-content">
+      <h1>Hi, I’m ARJENDRA, a Web Developer</h1>
+      <p>Creating modern, interactive, and user-friendly websites.</p>
+      <a href="#contact" class="cta-button">Hire Me</a>
+    </div>
+    <div class="hero-image">
+      <img src="ARJENDRA(PASSPORT_PIC).jpeg" alt="Profile Picture">
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about">
+    <div class="about-image">
+      <img src="assets/images/about-image.png" alt="About Me">
+    </div>
+    <div class="about-content">
+      <h2>About Me</h2>
+      <p>I’m a passionate web developer with expertise in HTML, CSS, JavaScript, and React. I love creating modern, responsive, and interactive websites.</p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills & Tech Stack</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <img src="assets/icons/html.svg" alt="HTML">
+        <p>HTML</p>
+      </div>
+      <div class="skill-card">
+        <img src="assets/icons/css.svg" alt="CSS">
+        <p>CSS</p>
+      </div>
+      <div class="skill-card">
+        <img src="assets/icons/js.svg" alt="JavaScript">
+        <p>JavaScript</p>
+      </div>
+      <div class="skill-card">
+        <img src="assets/icons/react.svg" alt="React">
+        <p>React</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="assets/images/project1.png" alt="Project 1">
+        <div class="project-details">
+          <h3>Project 1</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a href="#" class="project-link">View Project</a>
+        </div>
+      </div>
+      <!-- Add more project cards -->
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form class="contact-form">
+      <div class="form-group">
+        <input type="text" id="name" required>
+        <label for="name">Name</label>
+      </div>
+      <div class="form-group">
+        <input type="email" id="email" required>
+        <label for="email">Email</label>
+      </div>
+      <div class="form-group">
+        <textarea id="message" required></textarea>
+        <label for="message">Message</label>
+      </div>
+      <button type="submit" class="cta-button">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 [Your Name]. All rights reserved.</p>
+    <div class="social-links">
+      <a href="#"><img src="assets/icons/linkedin.svg" alt="LinkedIn"></a>
+      <a href="#"><img src="assets/icons/github.svg" alt="GitHub"></a>
+      <a href="#"><img src="assets/icons/twitter.svg" alt="Twitter"></a>
+    </div>
+  </footer>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>
